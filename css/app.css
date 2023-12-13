@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Globales*/
+
+a {
+  text-decoration: none;
+  color: #000; 
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header y Navegacion*/
+
+.nombreSitio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.nombreSitio span {
+  color: #037bc0;
+}
+
+.contenedorNavegacion {
+  border-top: 1px solid #e1e1e1;
+}
+
+.navPrincipal {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero {
+  background-image: url(../img/ImagenesEcommerce/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+/*Categorias*/
+
+.listadoCategorias {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
